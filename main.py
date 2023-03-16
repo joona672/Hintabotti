@@ -48,12 +48,3 @@ driver.quit()
 
 
 
-"""
-haku = requests.get(Skauppa, headers=HEADERS)
-
-soup = BeautifulSoup(haku.content, 'html.parser')
-price = soup.findAll("div", {"class": "price"})
-print(price)
-
-"""
-
